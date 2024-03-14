@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import '../app/app.dart';
 
 void main() {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(const ImcApp());
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -123,3 +126,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
