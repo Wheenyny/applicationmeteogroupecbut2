@@ -17,6 +17,10 @@ class MenuRoute extends StatelessWidget {
 
         children: [
           BottomNavigationBar(
+            backgroundColor: Colors.grey.shade300,
+            iconSize: 45,
+            fixedColor: Colors.blue.shade700,
+            unselectedItemColor: Colors.green.shade700,
             items: const <BottomNavigationBarItem>[
 
               BottomNavigationBarItem(
@@ -30,7 +34,7 @@ class MenuRoute extends StatelessWidget {
               ),
 
             ],
-              fixedColor: Colors.blue.shade900
+
 
           ),
 
