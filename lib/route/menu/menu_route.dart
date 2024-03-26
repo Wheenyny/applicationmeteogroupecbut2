@@ -15,6 +15,8 @@ class MenuRoute extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
 
+        //ajouter la partie d'affichage de la température grace a l'api
+
         children: [
           BottomNavigationBar(
             backgroundColor: Colors.grey.shade300,
